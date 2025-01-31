@@ -1,0 +1,122 @@
+%!Adobe-FontList 1.24
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/andreluz/Desktop/rotulo_final_INDD_Folder/Document fonts/AdobeFnt24.lst
+FileLength:2438
+FileModTime:748092754
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:/Users/andreluz/Desktop/rotulo_final_INDD_Folder/Document fonts/MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:218640
+FileModTime:479249860
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Sk-Modernist-Bold
+FamilyName:Sk-Modernist
+StyleName:Bold
+MenuName:Sk-Modernist Bold
+StyleBits:0
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Sk-Modernist Bold
+WritingScript:Roman
+OutlineFileName:/Users/andreluz/Desktop/rotulo_final_INDD_Folder/Document fonts/Sk-Modernist-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:71300
+FileModTime:638724474
+NameArray:0,Mac,4,Sk-Modernist Bold
+NameArray:0,Win,1,Sk-Modernist Bold
+NameArray:0,Win,16,Sk-Modernist
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Sk-Modernist-Light
+FamilyName:Sk-Modernist
+StyleName:Light
+MenuName:Sk-Modernist Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Sk-Modernist Light
+WritingScript:Roman
+OutlineFileName:/Users/andreluz/Desktop/rotulo_final_INDD_Folder/Document fonts/Sk-Modernist-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:52876
+FileModTime:638724469
+NameArray:0,Mac,4,Sk-Modernist Light
+NameArray:0,Win,1,Sk-Modernist Light
+NameArray:0,Win,16,Sk-Modernist
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Sk-Modernist-Regular
+FamilyName:Sk-Modernist
+StyleName:Regular
+MenuName:Sk-Modernist
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Sk-Modernist
+WritingScript:Roman
+OutlineFileName:/Users/andreluz/Desktop/rotulo_final_INDD_Folder/Document fonts/Sk-Modernist-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:52012
+FileModTime:638724470
+NameArray:0,Mac,4,Sk-Modernist
+NameArray:0,Win,1,Sk-Modernist
+%EndFont
+

@@ -1,0 +1,34 @@
+.link {
+  color: rgb(214, 211, 211);
+  font-family: var(--font-modernist);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.link {
+  /* border-bottom: 1px solid red; */
+}
+/* .link a:active {
+  background: linear-gradient(90deg, #ff8a05, #f9b331);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 18px rgba(248, 190, 42, 0.8);
+} */
+
+.active {
+  font-weight: bold;
+  border-bottom: 2px solid #ffd129;
+}
+
+.link:hover {
+  color: #ffd129; /* Highlight active link */
+  font-weight: bold;
+  border-bottom: 2px solid #ffd129;
+}
+
+@media screen and (max-width: 768) {
+  .link {
+    /* text-align: center; */
+    /* padding: 1rem 0; */
+  }
+}

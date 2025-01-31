@@ -1,0 +1,164 @@
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 20;
+  padding: 1rem 2rem;
+  background-color: #031c67; /* Dark blue background */
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 2rem 10%;
+  }
+}
+
+/* Title (Brand Logo or Name) */
+.title {
+  font-family: var(--font-modernist);
+  font-weight: 1000;
+  text-transform: uppercase;
+  color: #ffd129; /* Yellow color */
+  font-size: 2.3rem;
+  text-decoration: none;
+}
+
+/* Navigation Menu */
+.nav {
+  position: relative;
+}
+
+.nav_menu {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%; /* Full-screen dropdown */
+  background-color: rgba(3, 28, 103, 0.95); /* Semi-transparent blue */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem; /* Space between menu items */
+  list-style: none;
+  transform: translateY(-100%);
+  transition: all 0.5s ease-in-out;
+  z-index: 15;
+}
+
+.nav_menu.active {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Navigation Items */
+.nav_menu li {
+  font-size: 1.5rem; /* Increase font size for better readability */
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1rem 0;
+}
+
+.nav_menu li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav_menu li a:hover {
+  color: #ffd129; /* Yellow hover effect */
+}
+
+/* Active Link Styling */
+.active_link {
+  color: #ffd129; /* Highlight active link */
+  font-weight: bold;
+  border-bottom: 2px solid #ffd129;
+}
+
+/* Hamburger Menu (Nav Toggle) */
+.nav_toggle {
+  cursor: pointer;
+  display: block;
+  z-index: 20;
+}
+
+.nav_toggle div {
+  width: 2.5rem;
+  height: 0.3rem; /* Thicker for better visibility */
+  margin: 0.4rem 0;
+  background-color: #ffd129;
+  transition: all 0.4s ease-in-out;
+}
+
+/* Hamburger Icon Animation */
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* Overlay Background */
+.nav_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  visibility: hidden;
+  opacity: 0;
+  z-index: 10;
+  transition: opacity 0.3s ease;
+}
+
+.nav_overlay.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+  .nav_toggle {
+    display: block;
+  }
+
+  .nav_menu li {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav_menu {
+    flex-direction: row; /* Horizontal layout for larger screens */
+    position: static;
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+    background-color: transparent;
+    gap: 2rem; /* Space between menu items */
+  }
+
+  .nav_menu li {
+    padding: 0;
+  }
+
+  .nav_overlay {
+    display: none;
+  }
+
+  .nav_toggle {
+    display: none; /* Hide hamburger on larger screens */
+  }
+}
