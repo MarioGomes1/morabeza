@@ -43,7 +43,7 @@
   display: none;
 }
 
-@media screen and (max-width: 768) {
+@media screen and (max-width: 768px) {
   .nav_toggle {
     display: block;
   }
